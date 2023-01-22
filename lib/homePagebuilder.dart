@@ -1,7 +1,7 @@
-import 'package:sleducation/pages/homepage.dart';
+import 'package:sleducation/pages/homePage.dart';
 
 import 'package:flutter/material.dart';
-import 'package:sleducation/pages/coursepage/coursepagehome.dart';
+import 'package:sleducation/pages/coursepage/coursePageHome.dart';
 import 'package:sleducation/pages/forWatch.dart';
 class HomePagebuilder extends StatefulWidget {
 

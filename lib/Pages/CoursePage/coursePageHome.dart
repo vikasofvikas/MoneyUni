@@ -90,7 +90,7 @@ class _courseHomePage extends State<courseHomePage> {
                                 CourseContent(
                                   number: '02',
                                   duration: 2,
-                                  title: "Do's and Dont's in recession",
+                                  title: "Do's and Dont's",
 
                                 ),
                                 CourseContent(

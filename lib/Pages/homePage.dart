@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:percent_indicator/percent_indicator.dart';
-import 'package:sleducation/pages/coursepage/coursepagehome.dart';
-
+import 'package:sleducation/pages/coursepage/coursePageHome.dart';
+import 'package:sleducation/pages/chartEx.dart';
 import 'package:google_fonts/google_fonts.dart';
 
 class HomeScreen extends StatefulWidget {
@@ -94,7 +94,7 @@ class _HomeScreen extends State<HomeScreen> {
                    decoration: BoxDecoration(
                      color: Colors.white,
                      border: Border.all(
-                       color: Colors.grey.withOpacity(0.1),
+                       color: Colors.grey.withOpacity(0.2),
                        width: 3,
                      ),
                      borderRadius: BorderRadius.circular(8.0),
@@ -188,7 +188,7 @@ class _HomeScreen extends State<HomeScreen> {
                             decoration: BoxDecoration(
                               color: Colors.white,
                               border: Border.all(
-                                color: Colors.grey.withOpacity(0.1),
+                                color: Colors.grey.withOpacity(0.2),
                                 width: 3,
                               ),
                               borderRadius: BorderRadius.circular(8.0),
@@ -248,7 +248,7 @@ class _HomeScreen extends State<HomeScreen> {
                             decoration: BoxDecoration(
                               color: Colors.white,
                               border: Border.all(
-                                color: Colors.grey.withOpacity(0.1),
+                                color: Colors.grey.withOpacity(0.2),
                                 width: 3,
                               ),
                               borderRadius: BorderRadius.circular(8.0),
@@ -274,10 +274,7 @@ class _HomeScreen extends State<HomeScreen> {
                               Image.asset('assets/images/moneystack.png',height: 75,width: 75,),
                               TextButton(
                                 onPressed: () {
-                              /*    Navigator.push(
-                                    context,
-                                    MaterialPageRoute(builder: (context) =>   IndexPage(),),
-                                  );*/
+
 
                                 },
                                 child: Container(
