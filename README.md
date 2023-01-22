@@ -1,5 +1,4 @@
-# sleducation
-
+# Money Uni
 A new Flutter project.
 
 ## Getting Started
